@@ -1,7 +1,7 @@
 ---
 name: HW6 Project
 tools: [Python, HTML, vega-lite, Altair]
-image: assets/pngs/cars.png
+image: assets/pngs/barufo.png
 description: This is a "showcase" project that uses Jekyll!
 custom_js:
   - vega.min
@@ -51,6 +51,6 @@ between the different categories. I am no longer using the logarithmic scale for
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/arthurdt115/arthurdt115.github.io/blob/main/python_notebooks/nb.ipynb" text="The Analysis" %}
 </div>
 
