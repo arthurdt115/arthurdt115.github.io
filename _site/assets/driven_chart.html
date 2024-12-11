@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-d1d3015035fb9577aeb6a5358dd89a5e"}, "mark": {"type": "bar", "color": "orange"}, "encoding": {"x": {"field": "Model", "title": "Model", "type": "ordinal"}, "y": {"field": "mean_range", "title": "Mean Electric Range (miles)", "type": "quantitative"}}, "height": 300, "title": "Mean Electric Range by Model", "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-d1d3015035fb9577aeb6a5358dd89a5e": [{"Model": "330E", "mean_range": 18.2019801980198}, {"Model": "530E", "mean_range": 16.122685185185187}, {"Model": "740E", "mean_range": 14.0}, {"Model": "745E", "mean_range": 16.0}, {"Model": "745LE", "mean_range": 16.0}, {"Model": "750E", "mean_range": 36.0}, {"Model": "I3", "mean_range": 92.03294367693942}, {"Model": "I8", "mean_range": 14.880434782608695}, {"Model": "X3", "mean_range": 17.0}, {"Model": "X5", "mean_range": 28.952841128720525}, {"Model": "XM", "mean_range": 31.0}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

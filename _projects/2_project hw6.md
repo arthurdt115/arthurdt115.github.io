@@ -43,6 +43,7 @@ The x-axis represents the shape of the UFO, while the y-axis shows the count of 
 between the different categories. I am no longer using the logarithmic scale for chart 2, and that is only what I change from HW 5, because for some reason if I used log scale the bar won't show up.
 
 
+
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
