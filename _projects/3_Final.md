@@ -1,8 +1,8 @@
 ---
-name: Final Project "Driving the Future"
+name: Final Project, "Driving the Future"
 tools: [Python, HTML, vega-lite, Altair]
 image: assets/pngs/visualization3.png
-description: This is a project that aim to showcase different electric range that a certain car brand model's has! Created By Arthur Darma
+description: This is a project that aim to explore the relationship between electric vehicle makes and their associated models' electric ranges.
 custom_js:
   - vega.min
   - vega-lite.min
@@ -15,16 +15,23 @@ custom_js:
 ##### By: Arthur Darma
 
 --- 
+&nbsp;
+### Central Interactive Visualization
+###### *Click on an individual bar on the left to view the detailed mean electric range for each model of a specific make.
 
-## Central Interactive Visualization
+&nbsp;
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/hbar.json" style="width: 100%"></vegachart>
-## Contextual Visualization
+### Contextual Visualization
+&nbsp;
 <vegachart schema-url="{{ site.baseurl }}/assets/json/line.json" style="width: 100%"></vegachart>
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
 ---
+&nbsp;
 ### Connective Information:
-The dashboard visualization serves as the central focus of this analysis, exploring the relationship between electric vehicle makes and their associated models' electric ranges. By isolating the top 10 electric vehicle makes, the driver plot breaks down the distribution of vehicle types into plug-in hybrid electric vehicles (PHEV) and battery electric vehicles (BEV). This allows viewers to see the relative popularity of each type for a specific make in Washington state. Upon interacting with the driver plot, the driven plot dynamically updates to show the mean electric range of models associated with the selected make. This interactivity highlights the diversity in electric ranges among different models, offering insights into how manufacturers cater to various consumer needs.
+&nbsp;
+
+The dashboard visualization serves as the central focus of this analysis, exploring the relationship between electric vehicle makes and their associated models' electric ranges. By isolating the top 10 electric vehicle makes, the driver plot breaks down the distribution of vehicle types into plug-in hybrid electric vehicles (PHEV) and battery electric vehicles (BEV). This allows viewers to see the relative popularity of each type for a specific make in Washington state. Upon interacting with the driver plot, the driven plot dynamically updates to show the mean electric range of models associated with the selected make. This interactivity highlights the diversity in electric ranges among different models, offering insights for viewers about which model of a certain make would fulfill various consumer needs.
 
 The first contextual visualization, "Total Number of Electric Vehicles Per Year in Washington State" provides a historical perspective on the growth of electric vehicles (EVs) over time. This line chart illustrates a significant upward trend in EV adoption, reflecting the increasing consumer shift towards sustainable transportation. By understanding this trend, viewers can contextualize the popularity of specific makes and models in the dashboard, linking the rise in EV ownership to the car industry growth captured in the historical data.
 
