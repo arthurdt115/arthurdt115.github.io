@@ -22,10 +22,17 @@ custom_js:
 &nbsp;
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/hbar.json" style="width: 100%"></vegachart>
+** This visualization represents a filtered dataset of electric vehicles population data. The data has been cleaned by removing entries with missing values (NaN) and includes only the top 10 makes by vehicle count due to ensure the visualization remains clear and interpretable. Additionally, only models with an electric range greater than 0 miles are included to ensure meaningful representation of electric vehicle performance.
+
 ### Contextual Visualization
 &nbsp;
 <vegachart schema-url="{{ site.baseurl }}/assets/json/line.json" style="width: 100%"></vegachart>
+This line chart visualizes the total number of electric vehicles per year in Washington State from 2017 to 2024. The red line represents the upward trend in electric vehicle adoption over time, with blue points marking the specific values for each year. The data shows a steady and significant growth in the total number of electric vehicles, surpassing 1.8 million by 2024. The x-axis represents the years, while the y-axis displays the total number of electric vehicles.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
+This bar chart depicts the percentage of electric vehicles in Washington State from 2017 to 2024. The chart shows a steady increase in the adoption rate of electric vehicles over the years, with the percentage surpassing 3% of all vehicles by 2024. The x-axis represents the years, while the y-axis displays the percentage of electric vehicles as part of the total vehicle population. The consistent growth highlights a significant shift toward electric mobility within the state over the observed period.
+
+** These carts specifically represents Washington State as of 2024 and may not align with national trends. This visualization is not intended to generalize or misrepresent the broader U.S. market conditions since The electric vehicle market in 2024 appears to be stalling.
+
 ---
 &nbsp;
 ### Connective Information:
@@ -38,6 +45,15 @@ The first contextual visualization, "Total Number of Electric Vehicles Per Year 
 The second contextual visualization, "Electric Vehicles Percentage Per Year in Washington State" complements the historical growth data by focusing on the proportion of electric vehicles within the overall vehicle market. This bar chart demonstrates increase in the percentage of EVs, offering insights into the pace of market penetration relative to traditional vehicles. By understanding this one could infer from the central dashboard, that if the trend continues the PHEV and traditional vehicle will gradually be a history and everything will only be BEV.
 
 
+---
+
+To view the datasets and analysis utilized in this project:
+
+1. **Dataset for the Central Interactive Visualization**: [Electric Vehicle Population Data](https://catalog.data.gov/dataset/electric-vehicle-population-data/resource/fa51be35-691f-45d2-9f3e-535877965e69)  
+2. **Dataset for Contextual Visualization**: [Electric Vehicle Population Size History by County](https://catalog.data.gov/dataset/electric-vehicle-population-size-history-by-county/resource/de0258e2-3542-4703-aad4-dcebd9d1f195)  
+3. **Analysis Jupyter Notebook**: [Workbook Final Project](https://github.com/arthurdt115/arthurdt115.github.io/blob/main/python_notebooks/Workbook_Final_Project.ipynb)  
+
+Alternatively, you can access all of these resources using the buttons below.
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
