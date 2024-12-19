@@ -31,7 +31,7 @@ This line chart visualizes the total number of electric vehicles per year in Was
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar.json" style="width: 100%"></vegachart>
 This bar chart depicts the percentage of electric vehicles in Washington State from 2017 to 2024. The chart shows a steady increase in the adoption rate of electric vehicles over the years, with the percentage surpassing 3% of all vehicles by 2024. The x-axis represents the years, while the y-axis displays the percentage of electric vehicles as part of the total vehicle population. The consistent growth highlights a significant shift toward electric mobility within the state over the observed period.
 
-** These carts specifically represents Washington State as of 2024 and may not align with national trends. This visualization is not intended to generalize or misrepresent the broader U.S. market conditions since The electric vehicle market in 2024 appears to be stalling.
+** These charts specifically represents Washington State as of 2024 and may not align with national trends. This visualization is not intended to generalize or misrepresent the broader U.S. market conditions since The electric vehicle market in 2024 appears to be stalling.
 
 ---
 &nbsp;
